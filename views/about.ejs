@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/css/main.css" rel="stylesheet">
+  <title>About - Climate Solutions</title>
+</head>
+<body>
+  <!-- Include Navbar Partial -->
+  <%- include('partials/navbar', { page: '/about' }) %>
+
+  <!-- Main Content -->
+  <div class="container mx-auto">
+    <!-- Hero Component -->
+    <div class="hero bg-base-200 my-8">
+      <div class="hero-content text-center">
+        <div class="max-w-md">
+          <h1 class="text-5xl font-bold">About Me</h1>
+          <p class="py-6">"Living life to the fullest, I embrace every moment with style, adventure, and a sprinkle of positivity!"</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div>
+        <img src="https://avatars.githubusercontent.com/u/163060536?s=400&u=7db466468b139661e30ba6dc1560182f8e7460e8&v=4" alt="Personal Image" class="rounded-lg shadow-lg w-auto h-3/2">
+      </div>
+      <div class="text-center align-items-center pt-20 text-xl">
+        <p>A fun-loving girl with a passion for all things trendy and vibrant, I'm always on the lookout for the next adventure. I love expressing my style and sharing my journey with friends, whether it's through fashion, travel, or just having a good time. With a positive vibe and an open heart, I'm all about making memories and living life to the fullest!</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
